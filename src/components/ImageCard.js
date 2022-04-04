@@ -1,6 +1,11 @@
 import React from 'react';
 
 class ImageCard extends React.Component{
+    constructor(props) {
+        super(props);
+        this.imageRef = React.createRef();
+    }
+
 
     render() {
         //const image = this.props.image
@@ -8,7 +13,7 @@ class ImageCard extends React.Component{
 
         return(
             <div>
-                <img alt={description} src={urls.regular} />
+                <img ref={this.imageRef} alt={description} src={urls.regular} />
             </div>
         )
     }
