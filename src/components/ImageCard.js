@@ -1,10 +1,12 @@
 import React from 'react';
 
 class ImageCard extends React.Component{
+
     render() {
+        const image = this.props.image
         return(
             <div>
-                <img alt={this.props.image.description} src={this.props.image.urls.regular} />
+                <img alt={image.description} src={image.urls.regular} />
             </div>
         )
     }
