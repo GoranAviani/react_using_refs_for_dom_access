@@ -1,3 +1,6 @@
+Excercise from Modern React With Reduct Course by Stephen Grider. Excercise Section 10: Using Refs for DOM access
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
